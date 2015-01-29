@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/course-panel.css" rel="stylesheet" >
+
+    <!-- Custom CSS -->
+    <link href="css/topic-gorup-index.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default" id="top-navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Groupify</a>
+      </div>
+      <nav id="bs-example-navbar-collapse-1" class="collapse navbar-collapse navbar-right">
+        <ul class="nav navbar-nav navbar-left">
+          <li class="navbar-left">
+            <a href="#menu-toggle" id="menu-toggle">Toggle Menu</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav">
+          <li class="drop-down">
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Account<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">Edit Account</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Sign out</a></li>
+            </ul>
+          </li>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input class="form-control" type="text" placeholder="Search for courses...">
+            </div>
+            <button class="btn btn-default" type="submit">Search</button>
+          </form>
+        </ul>
+      </nav>
+    </nav>
+    <div id="wrapper">
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+          <ul class="sidebar-nav">
+              <li>
+                  <a href="#">All Courses</a>
+              </li>
+              <li>
+                  <a href="#">My Courses</a>
+              </li>
+              <li>
+                  <a href="#" data-toggle="modal" data-target="#contactModal">Contact</a>
+              </li>
+              <li>
+                  <a href="#" data-toggle="modal" data-target="#aboutModal">About</a>
+              </li>
+          </ul>
+      </div>
+      <!-- /#sidebar-wrapper -->
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+
+          <!-- contact and about modal -->
+          <div id="contactModal" class="modal fade" aria-hidden="true" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 id="contactModalTitle" class="modal-title">Contact</h4>
+                </div>
+                <div class="modal-body" id="contact-modal-body">
+                  Email: junyuw@berkeley.edu<br>
+                  Location: Berkeley, CA
+                </div>
+                <style>
+                #contact-modal-body {
+                  text-align: center
+                }
+                .modal-title {
+                  text-align: center
+                }
+                </style>
+              </div>
+            </div>
+          </div>
+          <div id="aboutModal" class="modal fade" aria-hidden="true" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 id="aboutModalTitle" class="modal-title">About</h4>
+                </div>
+                <div class="modal-body" id="about-modal-body">
+                  Lorem ipsum dolor sit amet luctus nulla sodales imperdiet eget in placerat montes a at. Sed sem maecenas. Est pellentesque suscipit urna mollitia interdum. Condimentum turpis velit. At suspendisse sit. Ullamcorper semper quis. Class suspendisse curabitur dui id purus. Aliquet mi semper. Venenatis consequat in donec hendrerit pulvinar molestie at sed. Donec est turpis nunc imperdiet tempora. Et vivamus nonummy gravida porttitor pellentesque. Morbi duis et nulla in in egestas.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- contact and about modal -->
+
+          <div class="container-fluid">
+              <div class="row">
+                <!-- course panel -->
+                <div class="col-lg-12 course-panel-container">
+                  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                      <div class="panel panel-primary course-panel front">
+                        <div class="panel-body course-panel-body">
+                          CS 61A
+                        </div>
+                      </div>
+                      <div class="panel panel-primary course-panel back">
+                        <div class="panel-heading course-panel-heading">
+                          CS 61A
+                        </div>
+                        <div class="panel-body">
+                          <p>
+                            Lorem ipsum dolor sit amet, lacus suscipit ridiculus, sapien sodales ligula neque lacus, magna euismod vel porttitor, ipsum duis libero fusce luctus feugiat. Proin ultricies risus maecenas. Tempus sit sagittis fusce amet. Proin wisi, sapien eget, lectus senectus at nec ac consequat ut, metus quis integer blandit turpis tincidunt dignissim.
+                          </p>
+                          <p>
+                            <button class="btn btn-default"> <a href="groups_index.html">Join</a> </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12 course-panel-container">
+                  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                      <div class="panel panel-primary course-panel front">
+                        <div class="panel-body course-panel-body">
+                          CS 61B
+                        </div>
+                      </div>
+                      <div class="panel panel-primary course-panel back">
+                        <div class="panel-heading course-panel-heading">
+                          CS 61B
+                        </div>
+                        <div class="panel-body">
+                          <p>
+                            Lorem ipsum dolor. Sit amet aliquam. Eget mattis a mi taciti erat a aliquet nulla. Non pretium maecenas sollicitudin consectetuer a. Molestie leo curabitur platea augue malesuada diam suscipit ut.
+                            
+                            ortis justo lectus ligula in mi. Suspendisse quam sed lorem habitasse at. Lacus neque ligula. Ullamcorper et condimentum. In quam amet. Vestibulum tincidunt non. Risus nulla ultricies et nonummy condimentum ut natus eget. Nec morbi augue imperdiet orci sem dui non nullam nulla elit sit officiis viverra sed. Urna lectus dolor. Dolorum ultricies aliqua. Quis sed sit lacus wisi non porta pede non. Donec ipsum nullam ligula sit accumsan. Lectus urna libero tristique faucibus suscipit non ac urna fames sed non turpis sem sit. Mauris nulla curabitur. Vitae sed lacus. Morbi nulla varius arcu leo ac risus velit porta. Urna rutrum pede at sed tortor aenean lectus sit tortor sed libero. Dapibus leo maecenas auctor porta amet. Netus fusce sollicitudin. Auctor nulla volutpat. Neque nec ac. Sem pharetra ut. Amet nisl lorem. Potenti justo consectetuer blandit suscipit commodo. Aliquam quisque dignissim. Nibh dapibus metus. Lobortis libero vel. Mauris proin sagittis proin lectus ultrices. Ullam ligula in luctus blandit lacus urna posuere vulputate pharetra urna.                          
+                          </p>
+                          <p>
+                            <button class="btn btn-default"> <a href="groups_index.html">Join</a> </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12 course-panel-container">
+                  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                      <div class="panel panel-primary course-panel front">
+                        <div class="panel-body course-panel-body">
+                          CS 61C
+                        </div>
+                      </div>
+                      <div class="panel panel-primary course-panel back">
+                        <div class="panel-heading course-panel-heading">
+                          CS 61C
+                        </div>
+                        <div class="panel-body">
+                          <p>
+                            Lorem ipsum dolor. Sit amet fusce. Purus vestibulum pede. Adipiscing dis amet. Pulvinar erat diam. Ut orci rutrum ut justo magnis. Mauris cursus rhoncus ligula ut integer. Dolor sit mollis tellus a elit. Velit lectus sapien. Porta etiam imperdiet elit mauris ut proin tristique tempor erat dictum nullam elementum aptent mollis posuere cras interdum. Sed nec vivamus ut accumsan taciti. Sed imperdiet ligula adipiscing animi vestibulum. Commodo leo curabitur massa gravida praesent tempus urna sed. Eget urna tempor donec elit sem. Mattis risus lacinia. In nisl metus mattis pretium nunc quis lobortis morbi nisl eget et. Eget sed et ipsum.                          
+                          </p>
+                          <p>
+                            <button class="btn btn-default"> <a href="groups_index.html">Join</a> </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- course panel! -->
+              </div>
+          </div>
+      </div>
+      <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    //toggle menu when clicked
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+
+    //adjust heights of course-panel when flipped
+    $(".course-panel-container").mouseenter(function(e) {
+        var heightOfContent = $(this).children().children().children('div.back').height() + 30;
+        this.setAttribute("style", "min-height:"+heightOfContent+"px");
+    });
+    
+    $(".course-panel-container").mouseleave(function(e) {
+        this.setAttribute("style", "min-height:100px");
+    });
+    </script>
+
+</body>
+
+</html>
