@@ -209,11 +209,31 @@
         </div>
         <!-- contact and about modal -->
 
+        <ol class="breadcrumb">
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">CS61A</a></li>
+          <li class="active">Topics & Groups</li>
+        </ol>
+
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="CourseActiondropdownMenu" data-toggle="dropdown" aria-expanded="true">
+            Actions
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Create Topic</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Create Group</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Activate</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Deactivate</a></li>
+          </ul>
+        </div>
+
         <!-- Topic Container -->
         <div id="topic-container" class="container-fluid">
             <div class="row">
               <div class="page-header">
-                <h1> Topics <small>for group discussion</small></h1>
+                <h1> Topics <small>for group discussion </small></h1>
               </div>
               <!-- course panel -->
               <div class="col-lg-3 course-panel-container">
@@ -273,7 +293,7 @@
         <div id="gorup-conatiner" class="container-fluid">
             <div class="row">
               <div class="page-header" id="group-header">
-                <h1> Groups <small>hover to show topic</small></h1>
+                <h1> Groups <small>hover to show topic </small></h1>
               </div>
               <style>
               .page-header {
