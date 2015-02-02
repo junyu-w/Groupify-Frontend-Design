@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/course-panel.css" rel="stylesheet" >
+
+    <!-- Custom CSS -->
+    <link href="css/topic-gorup-index.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default" id="top-navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Groupify</a>
+      </div>
+      <nav id="bs-example-navbar-collapse-1" class="collapse navbar-collapse navbar-right">
+        <ul class="nav navbar-nav navbar-left">
+          <li class="navbar-left">
+            <a href="#menu-toggle" id="menu-toggle">Toggle Menu</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav">
+          <li class="drop-down">
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Account<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">Edit Account</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Sign out</a></li>
+            </ul>
+          </li>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input class="form-control" type="text" placeholder="Search for courses...">
+            </div>
+            <button class="btn btn-default" type="submit">Search</button>
+          </form>
+        </ul>
+      </nav>
+    </nav>
+    <div id="wrapper">
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+          <ul class="sidebar-nav">
+              <li>
+                  <a href="#">All Courses</a>
+              </li>
+              <li>
+                  <a href="#">My Courses</a>
+              </li>
+              <li>
+                  <a href="#" data-toggle="modal" data-target="#contactModal">Contact</a>
+              </li>
+              <li>
+                  <a href="#" data-toggle="modal" data-target="#aboutModal">About</a>
+              </li>
+          </ul>
+      </div>
+      <!-- /#sidebar-wrapper -->
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+
+        <!-- contact and about modal -->
+        <div id="contactModal" class="modal fade" aria-hidden="true" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 id="contactModalTitle" class="modal-title">Contact</h4>
+              </div>
+              <div class="modal-body" id="contact-modal-body">
+                Email: junyuw@berkeley.edu<br>
+                Location: Berkeley, CA
+              </div>
+              <style>
+              #contact-modal-body {
+                text-align: center
+              }
+              .modal-title {
+                text-align: center
+              }
+              </style>
+            </div>
+          </div>
+        </div>
+        <div id="aboutModal" class="modal fade" aria-hidden="true" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 id="aboutModalTitle" class="modal-title">About</h4>
+              </div>
+              <div class="modal-body" id="about-modal-body">
+                Lorem ipsum dolor sit amet luctus nulla sodales imperdiet eget in placerat montes a at. Sed sem maecenas. Est pellentesque suscipit urna mollitia interdum. Condimentum turpis velit. At suspendisse sit. Ullamcorper semper quis. Class suspendisse curabitur dui id purus. Aliquet mi semper. Venenatis consequat in donec hendrerit pulvinar molestie at sed. Donec est turpis nunc imperdiet tempora. Et vivamus nonummy gravida porttitor pellentesque. Morbi duis et nulla in in egestas.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- contact and about modal -->
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-9">
+              <form>
+                <div class="form-group">
+                  <label for="course-title-input">Course Title</label>
+                  <input class="form-control" type="course-title" id="course-title-input" placeholder="Enter course title">
+                </div>
+                <div class="form-group">
+                  <label for="course-description-intput">Course Description</label>
+                  <input id="course-description-input" class="form-control" type="course-description" placeholder="Enter course description" size="20">
+                </div>
+              </form>
+              <button class="btn btn-default">Create Course</button>
+              <button class="btn btn-warning">Cancel</button>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+        </div>
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    //toggle menu when clicked
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+
+    //adjust heights of course-panel when flipped
+    $(".course-panel-container").mouseenter(function(e) {
+        var heightOfContent = $(this).children().children().children('div.back').height() + 30;
+        this.setAttribute("style", "min-height:"+heightOfContent+"px");
+    });
+    
+    $(".course-panel-container").mouseleave(function(e) {
+        this.setAttribute("style", "min-height:100px");
+    });
+
+    </script>
+
+</body>
+
+</html>
