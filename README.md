@@ -7,6 +7,10 @@ This is the front-end design and code of project Groupify, which is an education
 
 Progress
 ---
-Course index page and Groups index page have finished
+Page Structure, Course index page, Group/Topic index page has finished.
+
+To Do
+---
+Post index page, post show page, repy form.
 
 
