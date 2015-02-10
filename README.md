@@ -25,7 +25,7 @@ This is when we hover one of the course, the course panel is flipped and course 
 ![course index toggle][courseIndexToggle]
 [courseIndexToggle]: screenshot/course-index-toggle.png
 
-On the left sidebar, there's a create course button, by clicking that you will be directed to the course creation Page
+On the left sidebar, there's a create course button, by clicking that you will be directed to the course creation page
 
 ![course creation][courseCreate]
 [courseCreate]: screenshot/course-create-form.png
