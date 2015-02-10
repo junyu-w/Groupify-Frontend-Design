@@ -15,6 +15,7 @@ post show page, repy form.
 
 Demo
 ---
+![course index][id]
 [id]: screenshot/course-index-page.png  "This is the course index page, where all courses are listed"
 
 
