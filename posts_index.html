@@ -410,7 +410,11 @@
                 </div>
               </div>
             </div>
-            <div class="btn btn-md btn-info" id="new-post-toggle" data-toggle="modal" data-target="#new-post-modal">New Post</div>
+
+            <div class="round-button" id="new-post-toggle" data-toggle="modal" data-target="#new-post-modal" >
+              <div class="round-button-circle"><a href="#">Post</a></div>
+            </div>
+
             <div id="new-post-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="new-post-modal" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
@@ -449,8 +453,10 @@
     </div>
     <!-- /#wrapper -->
 
+
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 
 
     <!-- Bootstrap Core JavaScript -->
@@ -491,7 +497,6 @@
     $(function() {
         $("#new-post-toggle").draggable();
     });
-
 
 
     </script>
