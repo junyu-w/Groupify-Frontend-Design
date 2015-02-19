@@ -1,0 +1,21 @@
+/* Post show page */
+
+.panel-heading.tag {
+  background-color:#FDFDFD;
+}
+
+.panel-footer.tag {
+  background-color:#FDFDFD;
+}
+
+.reply-to-dis {
+  background: #EAEAEA;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right:10px;
+  margin-bottom:10px;
+}
+
+.reply-to-dis-btn {
+  margin-top:10px;
+}
