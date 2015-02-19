@@ -11,7 +11,7 @@ Page Structure, Course index page, Group/Topic index page, post index page, post
 
 To Do
 ---
-post show page, repy form.
+repy form.
 
 Demo
 ---
@@ -39,7 +39,7 @@ After you join one of the courses, you get access to it and by clicking the "Go"
 [topicGroupIndex]: screenshot/group-topic-index-page.png
 ***
 
-And as you might have noticed, on the top bar there's a "Toggle" button, this button lets you expand the size of the content page.
+And as you might have noticed, on the top bar there's a "Toggle" button (you can either click it or press "Enter"), this button lets you expand the size of the content page.
 
 ![topic/group index left toggle][topicGroupIndexLeftToggle]
 [topicGroupIndexLeftToggle]: screenshot/group-topic-index-left-toggle.png
@@ -57,7 +57,7 @@ When you clicked one of the graph button, a modal with its name, corresponding t
 [groupShow]: screenshot/group-show-toggle.png
 ***
 
-If you are an instructor account (which is true in this demo) you should see "watch" and "delete" in the modal, if you are a student you shoul expect to see "Go" instead. By click either "watch" or "Go", you get into the page contains the posts, topic, student answer and instructor answer of the topic, like a online discussion platform.
+If you are an instructor account (which is true in this demo) you should see "watch" and "delete" in the modal, if you are a student you shoul expect to see "Go" instead. By click either "watch" or "Go", you get into the page contains the posts, topic, student answer and instructor answer of the topic, like a online discussion platform. And that rounded button "Post" will follow you as you scroll so that you can make a new post whenever you want.
 
 ![post index][PostIndex]
 [PostIndex]: screenshot/post-index-page.png 
@@ -65,8 +65,14 @@ If you are an instructor account (which is true in this demo) you should see "wa
 
 And if you click one of the post, its title and content will pop out.
 
-![post show][postShow]
-[postShow]: screenshot/post-show-toggle.png
+![post show toggle][postShowToggle]
+[postShowToggle]: screenshot/post-show-toggle.png
 ***
+
+After you click "Show discussion", you will be directed to the post show page, which hierachically displays the post, followups and discussions about the followups.
+
+![post show][postShow]
+[postShow]: screenshot/post-show-page.png
+
 
 
